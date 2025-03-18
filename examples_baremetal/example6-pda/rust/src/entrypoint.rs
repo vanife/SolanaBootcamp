@@ -14,5 +14,5 @@ pub fn process_instruction(
 ) -> ProgramResult {
     msg!("[entrypoint] multifunc example entrypoint");
 
-    return Processor::process_program_call(program_id, accounts, instruction_data);
+    Processor::process_program_call(program_id, accounts, instruction_data)
 }

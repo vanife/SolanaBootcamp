@@ -35,7 +35,7 @@ fn is_prime(number: &u16) -> bool {
             return false;
         }
     }
-    return true;
+    true
 }
 
 fn division_based(nth_prime: u8) -> u16 {
@@ -52,5 +52,5 @@ fn division_based(nth_prime: u8) -> u16 {
         numb += 1;
     }
 
-    return latest_prime;
+    latest_prime
 }
