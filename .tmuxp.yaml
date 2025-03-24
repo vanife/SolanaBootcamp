@@ -1,0 +1,21 @@
+session_name: solana-bootcamp
+start_directory: ./
+
+environment:
+  DATABASE_URL: postgresql:///sosa
+
+# before_script: pipenv install --dev --skip-lock
+# shell_command_before:
+#   - '[ -d `pipenv --venv` ] && source `pipenv --venv`/bin/activate && reset'
+
+windows:
+- window_name: so-bg
+  layout: even-vertical
+  panes:
+  - npm run start-local-cluster
+  - sleep 10 && solana logs
+  - 
+- window_name: so1
+  panes:
+  -
+  -

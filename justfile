@@ -1,12 +1,12 @@
 versions:
-    # rustup --version
-    rustc --version
-    solana --version
-    avm --version
-    anchor --version
-    node --version
-    yarn --version
-    npm --version
+    rustup toolchain list | nl
+    rustc --version | nl
+    solana --version | nl
+    avm --version | nl
+    anchor --version | nl
+    node --version | nl
+    yarn --version | nl
+    npm --version | nl
 
 solana *command:
     solana {{command}}
