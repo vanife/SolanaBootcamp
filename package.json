@@ -28,7 +28,7 @@
         "call:5": "ts-node examples_baremetal/example5-compute/client/main.ts",
         "deploy:6": "solana program deploy ./examples_baremetal/target/deploy/pda.so",
         "call:6": "ts-node examples_baremetal/example6-pda/client/main.ts",
-        "test:rust": "cargo test-sbf --manifest-path=./src/rust/Cargo.toml",
+        "test:rust": "cargo test-sbf --workspace --manifest-path=./examples_baremetal/Cargo.toml",
         "deploy:t1": "solana program deploy ./examples_baremetal/target/deploy/sol_stream_program.so",
         "pretty": "prettier --write '{,src/**/}*.ts'"
     },

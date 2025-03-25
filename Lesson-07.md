@@ -38,13 +38,13 @@ worked without any errors
 ## Running the scripts
 - [V] `npm run deploy:1`
   * [V] `npm run call:1`
-- [ ] `npm run deploy:2`
-  * [ ] `npm run call:2`
+- [V] `npm run deploy:2`
+  * [V] `npm run call:2`
 - [X] `npm run deploy:3` fails
   * [X] `npm run call:3` fails
-- [ ] `npm run deploy:4`
-  * [ ] `npm run call:4`
-- [ ] `npm run deploy:5`
-  * [ ] `npm run call:5`
-- [ ] `npm run deploy:6`
-  * [ ] `npm run call:6`
+- [V] `npm run deploy:4`
+  * [V] `npm run call:4`
+- [V] `npm run deploy:5`
+  * [V] `npm run call:5`, but large numbers lead to error ExceededMaxInstructions("exceeded CUs meter at BPF instruction")
+- [V] `npm run deploy:6`
+  * [V] `npm run call:6`
